@@ -27,11 +27,27 @@ body{
         padding: 0px 10px;
         float: left;
     }
-    .left-title{
+    /* .left-title{
         text-align: left !important;
     }
     .left-text{
         text-align: left !important;
+    } */
+  
+    /* .form-bg > iframe {
+        width:650px;
+        height: 400px;
+    } */
+
+    .linkedin-logo > img{
+        margin: 2em auto 0.5em 2em;
+        border-radius: 8px;
+        background-color: white;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        width:20%;
+        height: auto;
     }
 
 }
@@ -63,13 +79,13 @@ body{
     background-color: hsl(248, 32%, 49%);
     padding: 1em;
     border-radius: 8px;
-    width:70%;
+    width:85%;
     margin: 1em auto;
 
     box-shadow: -0.2px 5px rgba(0, 0, 0, 0.173);}
 
 .form-bg{
-    width:70%;
+    width:85%;
     background-color: white;
     margin: 1em auto;
     padding: 2em 1em 1em 1em;
@@ -147,7 +163,7 @@ body{
 
 
 .linkedin-logo > img{
-    margin: 2em auto 0.5em 2em;
+    margin: 2em auto 0.5em auto;
     border-radius: 8px;
     background-color: white;
     padding: 0.5rem;
@@ -157,7 +173,8 @@ body{
     height: auto;
 }
 
-.form-bg{
-    width: auto;
+.form-bg > iframe{
+    /* width: 15em; */
+    width: 90%;
     height: 420px;
 }
