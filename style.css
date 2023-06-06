@@ -6,7 +6,7 @@ body{
     /* background-image: url("images/bg-intro-mobile.png"); */
     background-color: #00A0DC;
     /* padding: 5rem 10rem; */
-
+    
 }
 
 .row{
@@ -52,7 +52,7 @@ body{
 .left-title{
     margin: 0.5em auto 0.5em auto;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2.6em;
     width: 95%;
     text-align: center;
 }
@@ -155,4 +155,9 @@ body{
     align-items: center;
     width:20%;
     height: auto;
+}
+
+.form-bg{
+    width: auto;
+    height: 420px;
 }
